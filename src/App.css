@@ -1,38 +1,157 @@
-.App {
+.login{
+  max-width: 1200px;
+  min-width: 100px;
+  max-height: 1500px;
+  text-align: center;
+  min-height: 300px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sign{
+  max-width: 1200px;
+  min-width: 100px;
+  max-height: 1500px;
+  text-align: center;
+  min-height: 300px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notesboard{
+  text-align: center;
+}
+.LeaveLetter{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.checkbox{
+  padding-right: 220px;
+  
 }
+.profilpic{
+  margin-left: auto;
+  margin-right: auto;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.username{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.radiobtn{
+  padding-right: 10px;
+  margin-top: 30px;
+}
+hr{
+  width: 600px;
+   border :  1px solid white;
+}
+.Signup{
+  padding-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile{
+  max-width: 1200px;
+  min-width: 100px;
+  max-height: 1500px;
+  text-align: center;
+  min-height: 300px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.radio{
+  display: flex;
+  gap: 30px;
+  
+
+}
+.displayTask h4{
+  color:red
+}
+.displayTask h5{
+  color:green
+}
+.disatt{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.makecenter{
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px; */
+  text-align: center;
+}
+.makecenter1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* text-align: center; */
+}
+.makecenter1 hr{
+ 
+  border: 0.1px solid black;
+  width: 100vw;
+}
+.textFiled{
+  margin-top: 10px;
+}
+
+.left1{
+  margin-right: auto;
+}
+.right1{
+  margin-left: auto;
+}
+.textaline{
+  text-align: center;
+}
+.att_btn{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.att_btn Button{
+  margin-left: 20px;
+}
+.displayTask{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.leavetext{
+  margin: 50px ;
+}
+.leavedate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.complainlabel{
+  margin-left: 30px;
+}
+
+.complaininbox{
+  margin: 50px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.footer{
+  background-color: whitesmoke;
+  margin-top: 5px;
+
+min-width: auto;
+margin-bottom: 0;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
